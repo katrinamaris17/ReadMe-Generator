@@ -34,7 +34,11 @@ ${data.contributors}
 ${data.tests}
 
 ### Questions
+
+#### Github
 ${data.userName}
+
+#### Email me at:
 ${data.email}
 `;
 }
