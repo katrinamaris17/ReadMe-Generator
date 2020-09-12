@@ -63,13 +63,19 @@ const questions = [
     {
         type: "input",
         name: "email",
-        message: "Please provide your Github email.",
+        message: "Please provide your email address.",
     },
 
     {
         type: "input",
         name: "photo",
         message: "Please provide a url for the product photo",
+    },
+
+    {
+        type: "input",
+        name: "demo",
+        message: "Product demo url if any",
     },
 
 ];

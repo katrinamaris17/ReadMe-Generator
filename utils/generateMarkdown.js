@@ -1,9 +1,10 @@
 function generateMarkdown(data) {
-  // the back ticks allow you to write in markdown language
   return `
 #${data.title}
 ![Badge](https://img.shields.io/badge/license-${data.license}-blue)
+
 ![Product Photo](${data.photo})
+![Product Demo](${data.demo})
 
 ## Description 
   ${data.description}
@@ -14,6 +15,8 @@ function generateMarkdown(data) {
 *[Usage](#usage)
 *[License](#license)
 *[Contributors](#contributors)
+*[Tests](#tests)
+*[Questions](#questions)
 
 ### Installation
 ${data.installation}
@@ -30,7 +33,7 @@ ${data.contributors}
 ### Tests
 ${data.tests}
 
-###Contact for Questions
+### Questions
 ${data.userName}
 ${data.email}
 `;
