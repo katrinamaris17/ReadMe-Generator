@@ -1,12 +1,12 @@
 
-#ReadMe Generator
+#ReadMe Generator Application
 ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
 ![Product Photo](https://media.giphy.com/media/MY1KObVIIYAD3FcuLp/giphy.gif)
-![Product Demo](https://giphy.com/gifs/WRnmUrLXUt3dtMQzSk/html5)
+![Product Demo](https://media.giphy.com/media/UQCwjKBmAYTPp3zYAD/giphy.gif)
 
 ## Description 
-  Follow these easy prompts to create a great ReadMe for your project.
+  Follow these easy prompts to create a great ReadMe for your project
 
 ## Table of Contents (Optional) 
 
