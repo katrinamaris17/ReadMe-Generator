@@ -1,10 +1,10 @@
 
 #ReadMe Generator
 ![Badge](https://img.shields.io/badge/license-MIT-blue)
-![Product Photo](https://giphy.com/gifs/J1ALTOzbQJBT6333lX)
+![Product Photo](none)
 
 ## Description 
-  Creates ReadME for new apps
+  Follow these easy prompts to create a great ReadMe for your project
 
 ## Table of Contents (Optional) 
 
@@ -14,20 +14,20 @@
 *[Contributors](#contributors)
 
 ### Installation
-Clone application then run npm i
+Clone this application and run the following command: npm i
 
 ### Usage
-To create a READme Generator 
+To use this application, you must have Node installed in your machine
 
 ### License
 MIT
 
 ### Contributors
-Bobbi Tarkany
+None
 
 ### Tests
-NPM Run Tests
+npm test
 
 ###Contact for Questions
-katrinamaris17
+https://github.com/katrinamaris17
 katrinamaris17@gmail.com

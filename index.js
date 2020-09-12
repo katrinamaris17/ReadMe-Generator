@@ -35,7 +35,7 @@ const questions = [
         message: "Please select a license.",
         choices: [
             "MIT",
-            "GVL-GPL 3.0",
+            "GNU GPLv3",
             "APACHE 2.0",
             "BSD 3",
             "None",
