@@ -2,6 +2,7 @@ const fs = require("fs")
 const path = require("path")
 const generateMarkdown = require("./utils/generateMarkdown")
 const inquirer = require("inquirer")
+const axios = require("axios")
 
 
 const questions = [
@@ -62,20 +63,14 @@ const questions = [
 
     {
         type: "input",
-        name: "email",
-        message: "Please provide your email address.",
-    },
-
-    {
-        type: "input",
-        name: "photo",
-        message: "Please provide a url for the product photo",
+        name: "screenshot",
+        message: "Your app screenshot",
     },
 
     {
         type: "input",
         name: "demo",
-        message: "Product demo url if any",
+        message: "Your demo url",
     },
 
 ];
@@ -90,11 +85,21 @@ function writeToFile(fileName, data) {
 
 function init() {
     inquirer.prompt(questions)
-    .then((answers)=> {
-        console.log("Now generating README");
-        // ... is a spread operator - look into developer mozilla
-        writeToFile("README.md", generateMarkdown({...answers}));
-    });
+        .then((answers) => {
+            const url = `https://api.github.com/users/${answers.userName}`
+            console.log(answers)
+            axios.get(url)
+                .then(function (response) {
+                    // handle success
+                    console.log(response.data);
+                    // answers.email = response.data.email;
+                    answers.photo = response.data.avatar_url;
+
+                    console.log("Now generating README");
+                    // ... is a spread operator - look into developer mozilla
+                    writeToFile("README.md", generateMarkdown(answers));
+                })
+        });
 
 }
 

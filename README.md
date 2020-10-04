@@ -1,12 +1,15 @@
 
-#ReadMe Generator Application
+#README Generator
 ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
-![Product Photo](https://media.giphy.com/media/MY1KObVIIYAD3FcuLp/giphy.gif)
-![Product Demo](https://media.giphy.com/media/UQCwjKBmAYTPp3zYAD/giphy.gif)
+![Github Profile](https://avatars0.githubusercontent.com/u/66916935?v=4)
+
+## Product Demo
+
+[![](readme-screenshot.png)](https://vimeo.com/464613531)
 
 ## Description 
-  Follow these easy prompts to create a great ReadMe for your project
+This is a readme generator with prompts for users to follow and easily generate a README for new apps
 
 ## Table of Contents (Optional) 
 
@@ -18,24 +21,21 @@
 *[Questions](#questions)
 
 ### Installation
-Clone this application and run the following command: npm i
+Clone this app and run "npm i" in your terminal
 
 ### Usage
-To use this application, you must have Node installed in your machine
+In order to use this app, you must have Node installed in your machine. To use run "node index.js" in your terminal.
 
 ### License
 MIT
 
 ### Contributors
-None
+This app was created with the help of a TA and a tutor.
 
 ### Tests
-To run tests, run the following command: npm test
+For testings, run "npm test" in your terminal.
 
 ### Questions
 
 #### Github
-https://github.com/katrinamaris17
-
-#### Email me at:
-katrinamaris17@gmail.com
+katrinamaris17

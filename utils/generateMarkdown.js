@@ -3,11 +3,14 @@ function generateMarkdown(data) {
 #${data.title}
 ![Badge](https://img.shields.io/badge/license-${data.license}-blue)
 
-![Product Photo](${data.photo})
-![Product Demo](${data.demo})
+![Github Profile](${data.photo})
+
+## Product Demo
+
+[![](${data.screenshot})](${data.demo})
 
 ## Description 
-  ${data.description}
+${data.description}
 
 ## Table of Contents (Optional) 
 
@@ -36,11 +39,7 @@ ${data.tests}
 ### Questions
 
 #### Github
-${data.userName}
-
-#### Email me at:
-${data.email}
-`;
+${data.userName}`;
 }
 
 module.exports = generateMarkdown;
